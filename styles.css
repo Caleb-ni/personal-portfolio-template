@@ -1,0 +1,156 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "lato", sans-serif;
+  background-color: #111;
+  color: #666;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 0;
+  background-color: transparent;
+}
+
+header a {
+  color: #666;
+  text-align: center;
+  text-decoration: none;
+  margin: auto 4rem;
+  font-size: 1rem;
+}
+.social-media{
+    display: flex;
+    font-size: 20px;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+.hero {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  align-items: start;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.intro h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  font-size: 32px;
+}
+
+.intro p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  width: 70%;
+  color: #666;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.8rem 3rem;
+  margin-top: 20px;
+  background-color: #00ff00;
+  color: #111;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #00cc00;
+}
+.btn a {
+    text-decoration: none;
+    color: #fff;
+}
+.btn i{
+    font-size: 13px;
+    color: #fff;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin-top: 1rem;
+}
+
+.worked-with {
+  display: flex;
+  justify-content: start;
+  margin-top: 2rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.worked-with i {
+  margin: 0;
+  font-size: 2rem;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 10px 10px;
+  color: #fff;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+  letter-spacing: 2px;
+}
+
+.worked-with i:hover {
+  opacity: 1;
+  background: #666;
+  color: #000;
+}
+.work-box {
+  padding-left: 8rem;
+}
+.work {
+  width: 100%;
+}
+.work p {
+  color: #666;
+  text-align: start;
+}
+.work .worked-with i {
+  padding: 10px 20px;
+  color: #666;
+  text-align: start;
+  opacity: 0.8;
+  transition: color 0.5s ease;
+}
+.work .worked-with i:hover{
+    color: #ccc;
+}
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+p {
+  color: #666;
+}
