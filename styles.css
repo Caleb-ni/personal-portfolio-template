@@ -1,8 +1,7 @@
+
 body {
   width: 100%;
   height: 100%;
-  margin: 0;
-  padding: 0;
   font-family: "lato", sans-serif;
   background-color: #111;
   color: #666;
@@ -15,12 +14,30 @@ header {
   background-color: transparent;
 }
 
-header a {
+nav a {
+  position: relative;
   color: #666;
   text-align: center;
   text-decoration: none;
   margin: auto 4rem;
   font-size: 1rem;
+  padding: 0 10px;
+}
+nav a:after{
+  content: "";
+  position: absolute;
+  background-color: #666;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: .3s;
+}
+nav a:hover{
+  color: #666;
+}
+nav a:hover:after{
+  width: 100%;
 }
 .social-media{
     display: flex;
@@ -57,7 +74,7 @@ header a {
 .intro h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  color: #fff;
+  color: #ccc;
   font-size: 32px;
 }
 
@@ -72,7 +89,7 @@ header a {
   display: inline-block;
   padding: 0.8rem 3rem;
   margin-top: 20px;
-  background-color: #00ff00;
+  background-color: #00cc00;
   color: #111;
   border-radius: 5px;
   text-decoration: none;
@@ -81,7 +98,7 @@ header a {
 }
 
 .btn:hover {
-  background-color: #00cc00;
+  background-color: #00ff00;
 }
 .btn a {
     text-decoration: none;
@@ -153,4 +170,6 @@ footer {
 }
 p {
   color: #666;
+  text-transform: 18px
+  ;
 }
